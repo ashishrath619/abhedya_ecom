@@ -1,0 +1,11 @@
+.cardsimplle__card {
+  width: fit-content;
+  border-radius: 22px !important;
+  text-align: center;
+  font-style: italic;
+  box-shadow: 0 0 0 0 !important;
+}
+.cardsimplle__card:hover {
+  box-shadow: 0 4px 8px 0 rgb(173, 211, 255) !important;
+  color: rgb(39, 125, 223);
+}

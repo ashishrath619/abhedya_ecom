@@ -1,0 +1,9 @@
+.merge1 {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin: 0 6rem 0 6rem;
+}
+.merge {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}

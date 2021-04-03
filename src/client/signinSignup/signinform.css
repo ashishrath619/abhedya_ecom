@@ -1,0 +1,115 @@
+.signin_container {
+    display: block;
+    margin: auto;
+    padding: 0.5rem 2rem 0.5rem 1rem;
+}
+
+#username, #password, #signup_password, #signup_email {
+    padding: 0.5rem;
+    width: 100%;
+    margin: 1rem 0rem;
+    border: 1px solid #d9d9d9;
+}
+
+.login_remember_forgod_password {
+    display: flex;
+    align-items: center;
+}
+
+.login_remember_forgod_password div {
+    padding-right: 2rem;
+}
+
+.login_button {
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #007bff;
+    background-color: #fff;
+}
+
+.forgot_password {
+    float: right;
+}
+
+hr {
+    margin: 1rem 0rem;
+}
+
+.or_signin_with_text {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.google_facebook_button {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1rem;
+}
+
+.google_facebook_button button {
+    border: none;
+    border: 1px solid #d9d9d9;;
+    padding: 0.5rem 2.5rem;
+    background-color: #fff;
+}
+
+.google_logo {
+    font-weight: 1000;
+    font-size: 1rem;
+    padding-right: 0.4rem;
+    color:  #ff4d4d;
+}
+
+.facebook_logo {
+    font-weight: 1000;
+    font-size: 1rem;
+    padding-right: 0.4rem;
+    color: #005ce6;
+}
+
+.signin_with_google_button {
+    width: 100%;
+}
+
+.signin_with_facebook_button {
+    width: 100%;
+}
+
+.signup_button_agreement {
+    display: flex;
+    align-items: center;
+}
+
+.signup_button_agreement div {
+    margin-right: 2rem;
+}
+
+.signin_header {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.signin_header div strong {
+    font-size: 1.5rem;
+    font-weight: 1000;
+    padding: 0.5rem 4rem;
+    color:  #737373;
+}
+
+.signin_header div strong:hover {
+    color: #005ce6;
+}
+
+.signin_signup_button {
+    border: none;
+    margin: 0.5rem 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #97a7be;
+    background-color: #fff;
+}
+
+.signin_signup_button:hover {
+    color: #005ce6;
+}
+

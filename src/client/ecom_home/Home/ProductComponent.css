@@ -1,0 +1,10 @@
+.ProductComponent{
+    background-color:#fafafa;
+    padding-top: 50px;
+}
+.ProductComponent__Title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: -30px;
+    padding-left: 50px;
+}

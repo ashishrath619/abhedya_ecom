@@ -1,0 +1,258 @@
+.header__upper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  background-color: #fafafa;
+  font-size: 14px;
+}
+.header__upperLeft {
+  margin-top: 5px;
+}
+.header__upperLeft a {
+  color: gray;
+  margin-left: 20px;
+}
+.header__upperRight {
+  display: flex;
+}
+.header__upperRightCurrencyMenu,
+.header__upperRightLanguageMenu {
+  height: fit-content;
+  width: auto;
+  border: none;
+  margin-right: 20px;
+  color: gray;
+  background-color: #fafafa;
+  font-size: 14px;
+}
+.header__upperRightLogin {
+  color: gray;
+  margin-top: 7px;
+  margin-right: 60px;
+  font-size: 14px;
+}
+.header__upperRightLogin:hover {
+  /* background-color: blue; */
+}
+.header__middle {
+  display: flex;
+  justify-content: space-between;
+}
+.header__middleLeft {
+  display: flex;
+  justify-content: space-between;
+}
+.header__middleLeftLogo {
+  width: 60px;
+  height: auto;
+  margin-left: 20px;
+  color: #3399ff;
+}
+.header__middleLeftLogoText {
+  margin-top: 12px;
+  font-weight: 600;
+  color: #3399ff;
+}
+.header__middleLeftSearch {
+  display: flex;
+  margin-left: 140px;
+  margin-top: 10px;
+  border: 1px solid #99ccff;
+  height: fit-content;
+}
+.header__middleLeftSearchMenu {
+  height: fit-content;
+  border: none;
+  width: fit-content;
+  color: #6c757d;
+}
+.header__middleLeftSearchSeparator {
+  border-left: 1px solid rgb(214, 213, 213);
+  height: 30px;
+  margin-top: 4px;
+}
+.header__middleLeftSearchInput {
+  width: fit-content;
+  height: fit-content;
+  border: none;
+}
+.header__middleLeftSearchIcon {
+  background-color: #3399ff;
+  color: white;
+  border-radius: 0px;
+  width: fit-content;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.header__middleRight {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.header__middleRightWish {
+  margin-right: 20px;
+}
+.header__middleRightWishIcon {
+  height: auto;
+  width: 22px;
+}
+.header__middleRightCartIcon {
+  height: auto;
+  width: 22px;
+}
+.header__middleRightWishCount,
+.header__middleRightCartCount {
+  display: inline-block;
+  color: #3399ff;
+  margin-left: 2px;
+}
+.header__middleRightWishText {
+  font-size: 12px;
+  margin-left: -10px;
+}
+
+.header__middleRightCartText {
+  font-size: 12px;
+}
+.header__bottom span {
+  color: #3399ff;
+}
+.navbar {
+  background-color: black;
+}
+.header__bottomHover li:hover .header__bottomHoverMenu {
+  display: block;
+}
+.header__bottomHoverMenuElectronicsArrowIcon {
+  margin-left: 60px;
+}
+.header__bottomHoverMenuFurnitureArrowIcon {
+  margin-left: 72px;
+}
+.header__bottomHoverMenuCookingArrowIcon {
+  margin-left: 77px;
+}
+.header__bottomHoverMenuClothingArrowIcon {
+  margin-left: 76px;
+}
+.header__bottomSubHover:hover .header__bottomHoverSubMenu {
+  display: block;
+}
+.header__bottomMenuItems {
+  display: flex;
+  justify-content: space-between;
+}
+.header__bottomMenuItemsLeft {
+  padding-left: 20px;
+  width: 250px;
+  height: 400px;
+  overflow: hidden;
+}
+.header__bottomMenuItemsMiddle {
+  width: 250px;
+  height: 400px;
+  overflow: hidden;
+}
+.header__bottomMenuItemsRight {
+  width: 250px;
+  height: 400px;
+  overflow: hidden;
+}
+.header__bottomMenuItemsLeftTitle {
+  font-weight: bolder;
+}
+.header__bottomMenuItemsLeft ul {
+  list-style: none;
+}
+.header__bottomMenuItemsLeft ul a {
+  text-decoration: none;
+  color: black;
+}
+.header__bottomMenuItemsMiddle ul {
+  list-style: none;
+}
+.header__bottomMenuItemsMiddle ul a {
+  text-decoration: none;
+  color: black;
+}
+.header__bottomMenuItemsRight ul {
+  list-style: none;
+}
+.header__bottomMenuItemsRight ul a {
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 800px) {
+  .header__middleLeftLogo {
+    margin-top: -10px;
+  }
+  .header__middleLeftSearch {
+    margin-left: 50px;
+  }
+  .header__middleLeftSearchMenu {
+    font-size: 14px;
+  }
+  .header__middleLeftSearchInput {
+    font-size: 14px;
+  }
+  .header__middleLeftSearchIcon {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .header__middleRight {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .navbar {
+    background-color: white;
+  }
+}
+@media (max-width: 420px) {
+  .header__upper {
+    font-size: 12px;
+  }
+  .header__upperLeft a {
+    margin-left: 10px;
+  }
+  .header__upperRightCurrencyMenu,
+  .header__upperRightLanguageMenu {
+    margin-right: 5px;
+    font-size: 12px;
+  }
+  .header__upperRightLogin {
+    margin-right: 5px;
+    font-size: 12px;
+  }
+  .header__middle {
+  }
+  .header__middleLeftLogo {
+    margin-top: -35px;
+    margin-left: 10px;
+    width: 40px;
+  }
+  .header__middleLeftSearch {
+    margin-left: 10px;
+  }
+  .header__middleLeftSearchMenu {
+    font-size: 10px;
+  }
+  .header__middleLeftSearchInput {
+    font-size: 10px;
+  }
+  .header__middleLeftSearchSeparator {
+    margin-top: 2px;
+    height: 25px;
+  }
+  .header__middleLeftSearchIcon {
+    font-size: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .header__middleRight {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .navbar {
+    background-color: white;
+  }
+}

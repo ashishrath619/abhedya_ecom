@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.you_may_also_like_h3 {
+    text-align: center;
+    padding: 2rem 0rem;
+    font-size: 2rem;
+}
+
+.you_may_also_like_container {
+    display: grid;
+    grid-template-columns: 100%;
+} 
+
+
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+
+    .you_may_also_like_container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .you_may_also_like_container {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+}

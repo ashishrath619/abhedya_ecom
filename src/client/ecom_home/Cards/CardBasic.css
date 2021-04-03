@@ -1,0 +1,38 @@
+.cardBasic__card {
+  width: fit-content;
+  align-items: center;
+}
+.cardBasic__cardImgColumn {
+  display: flex;
+  flex-direction: column;
+}
+.cardBasic__cardImgColumnWishIcon {
+  margin-top: -200px;
+  margin-bottom: 180px;
+  font-size: 20px;
+  color: red;
+  visibility: hidden;
+}
+.cardBasic__cardImgColumnButton {
+  visibility: hidden;
+}
+.cardBasic__cardCategory {
+  color: gray;
+}
+.cardBasic__cardName {
+  margin-bottom: -4px;
+}
+.cardBasic__cardPrice {
+  color: green;
+}
+.cardBasic__cardRating {
+  display: flex;
+}
+.cardBasic__card:hover {
+  box-shadow: 0px 4px 8px 0 rgb(173, 211, 255) !important;
+  color: rgb(39, 125, 223);
+}
+.cardBasic__card:hover .cardBasic__cardImgColumnButton,
+.cardBasic__card:hover .cardBasic__cardImgColumnWishIcon {
+  visibility: visible;
+}

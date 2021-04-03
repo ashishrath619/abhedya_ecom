@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topcontent .topcontent_nav {
+    margin: 1rem 5.5rem 1rem 5.5rem;
+    background-color: #e9ecef;
+}
+
+.topcontent_nav ul {
+    display: flex;
+}
+.topcontent_nav ul li {
+    padding: 0.8rem;
+    list-style-type:none;
+}
+.topcontent_nav a {
+    text-decoration: none;
+    color: #000000;
+}
+.topcontent_nav a:hover {
+    color: #c96;
+}
+
+.topcontent_subheading {
+    margin: 1rem 5.5rem 1rem 5.5rem;
+    display: grid;
+    /* manage this */
+    grid-template-columns: 65% 35%; 
+}
+
+.short_by_container, .filter_container {
+    display: flex;
+    align-items: center;
+}
+
+.topcontent_clean {
+    color: #000000;
+    text-decoration: none;
+    padding: 0.2rem 1rem 0 7.8rem;
+}
+.topcontent_clean:hover {
+    color: #c96;
+    text-decoration: none;
+}
+
+
+.topcontent label {
+    float: right;
+     margin-top: 0.5rem;
+}
+
+.topcontent_images a {
+    padding: 0.6rem 0 0 0.8rem;
+}
+
+
+.filters_heading {
+    margin: 0;
+}
+
+
+.sort_by {
+    padding-right: 1rem;
+}
+
+@media only screen and (min-width:1023px) and (max-width:1030px ) {
+
+    .topcontent_subheading {
+        display: grid;
+        /* manage this */
+        grid-template-columns: 57% 43%; 
+    }
+    .topcontent .topcontent_nav {
+        margin: 1rem 4rem 1rem 4rem;
+    }
+    .topcontent_clean {
+        padding: 0.2rem 1rem 0 6rem;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:1022px ) {
+    .topcontent .topcontent_nav {
+        margin: 1rem 1rem 1rem 1rem;
+
+    }
+
+    .topcontent_subheading {
+        margin: 1rem 2rem 1rem 2rem;
+        display: grid;
+        /* manage this */
+        grid-template-columns: 48% 52%; 
+    }
+   
+    .topcontent_clean {
+        padding: 0.2rem 0.5rem 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .topcontent img {
+        width: 100%;
+    }
+    .topcontent .topcontent_nav {
+        margin: 1rem 1rem 1rem 1rem;
+    }
+    .topcontent_line {
+        width: 100%;
+    }
+
+    .topcontent_subheading {
+        margin: 1rem 1.5rem 1rem 1.5rem;
+        display: grid;
+        /* manage this */
+        grid-template-columns: 100%; 
+    }
+
+    .topcontent_clean, .filters_heading {
+        display: none;
+    }
+    .filter_container {
+        display: inline;
+        align-items: center;
+    }
+
+    .short_by_container {
+        display: inline;
+        text-align: center;
+    }
+    .topcontent label {
+        float: none;
+        margin-top: 0.5rem;
+    }
+    
+    .topcontent_images {
+        display: flex;
+        padding: 0 5rem 0 4rem;
+    }
+    .filter_container span {
+        padding-left: 4.6rem;
+    }
+}
